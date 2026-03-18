@@ -1,0 +1,7 @@
+0000.000 (1) Opened log file at time: Sun, 01 Feb 2026 00:57:03 +0000 on http://academia-venum.local
+0000.002 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.5 WP: 6.9 PHP: 8.2.27 (cgi-fcgi, Windows NT MARCIO 10.0 build 26200 (Windows 11) AMD64) MySQL: 8.0.35 (max packet size=1073741824) WPLANG: en_US Server: nginx/1.26.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 5.3M | 14M) multisite: N openssl: OpenSSL 3.0.15 3 Sep 2024 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.004 (1) Free space on disk containing Updraft's temporary directory: 138344.4 MB
+0000.007 (1) Requesting backup semaphore lock (4a1edc5c5541)
+0000.011 (1) [Debug] Lock option (updraft_lock_4a1edc5c5541, wp_options) was created in the database
+0000.013 (1) [Info] Lock (updraft_lock_4a1edc5c5541, wp_options) acquired after initialising the database
+0000.015 (1) This backup task (4a1edc5c5541) is either complete or began over 2 days ago: ending (1769907423.3474, ) (existing jobdata keys: )

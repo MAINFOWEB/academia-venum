@@ -1,0 +1,218 @@
+0000.008 () Opened log file at time: Sun, 01 Feb 2026 00:55:16 +0000 on http://academia-venum.local
+0000.009 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.1 WP: 6.9 PHP: 8.2.27 (cgi-fcgi, Windows NT MARCIO 10.0 build 26200 (Windows 11) AMD64) MySQL: 8.0.35 (max packet size=1073741824) WPLANG: en_US Server: nginx/1.26.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 5.6M | 8M) multisite: N openssl: OpenSSL 3.0.15 3 Sep 2024 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.009 () Free space on disk containing Updraft's temporary directory: 138545.4 MB
+0000.044 () Restore setup, now closing connection and starting restore over AJAX.
+0000.011 () Opened log file at time: Sun, 01 Feb 2026 00:55:16 +0000 on http://academia-venum.local
+0000.011 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.26.1 WP: 6.9 PHP: 8.2.27 (cgi-fcgi, Windows NT MARCIO 10.0 build 26200 (Windows 11) AMD64) MySQL: 8.0.35 (max packet size=1073741824) WPLANG: en_US Server: nginx/1.26.1 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.1M | 8M) multisite: N openssl: OpenSSL 3.0.15 3 Sep 2024 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.012 () Free space on disk containing Updraft's temporary directory: 138544.6 MB
+0000.012 () Ensuring WP_Filesystem is setup for a restore
+0000.014 () WP_Filesystem is setup and ready for a restore
+0000.018 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_db7_forms","wp_nfd_data_event_queue","wp_podsrel","wp_yoast_indexable","wp_yoast_indexable_hierarchy","wp_yoast_migrations","wp_yoast_primary_term","wp_yoast_seo_links"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.021 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\Users\maver\Local Sites\academia-venum\app\public\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.035 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.037 () Entity: db
+0000.037 () restore_backup(backup_file=backup_2026-01-31-1959_Academia_Venum_4a1edc5c5541-db.gz, type=db, info=a:0:{}, last_one=)
+0000.037 () Unpacking backup... (backup_2026-01-31-1959_Academia_Venum_4a1edc5c5541-db.gz, 0.1 Mb)
+0000.038 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\Users\maver\Local Sites\academia-venum\app\public\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.039 () Database successfully unpacked
+0000.042 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.052 () Using direct MySQL access; value of use_mysqli is: 1
+0000.052 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.100 () Max packet size: 1024 MB
+0000.100 () Entering maintenance mode
+0000.100 () Enabling Maintenance mode&#8230;
+0000.116 () Backup of: https://academia-venum.local
+0000.132 () Content URL: https://academia-venum.local/wp-content
+0000.132 () Uploads URL: https://academia-venum.local/wp-content/uploads
+0000.133 () Old table prefix: wp_
+0000.133 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.133 () Site information: multisite=0
+0000.133 () Site information: sql_mode=NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.134 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0000.134 () New table prefix: 9u_
+0000.139 () Processing table (InnoDB): wp_options - will restore as: 9u_options
+0000.230 () Atomic restore: dropping original table (wp_options)
+0000.239 () Atomic restore: renaming new table (9u_options) to final table name (wp_options)
+0000.250 () Restoring prior UD configuration (table: wp_options; keys: 102)
+0000.612 () Search and replacing table: wp_options: rows: 389
+0000.637 () Processing table (InnoDB): wp_users - will restore as: 9u_users
+0000.680 () Atomic restore: dropping original table (wp_users)
+0000.688 () Atomic restore: renaming new table (9u_users) to final table name (wp_users)
+0000.706 () Search and replacing table: wp_users: rows: 3
+0000.706 () Processing table (InnoDB): wp_usermeta - will restore as: 9u_usermeta
+0000.759 () Atomic restore: dropping original table (wp_usermeta)
+0000.768 () Atomic restore: renaming new table (9u_usermeta) to final table name (wp_usermeta)
+0000.783 () Search and replacing table: wp_usermeta: rows: 94
+0000.785 () Processing table (InnoDB): wp_commentmeta - will restore as: 9u_commentmeta
+0000.830 () Atomic restore: dropping original table (wp_commentmeta)
+0000.839 () Atomic restore: renaming new table (9u_commentmeta) to final table name (wp_commentmeta)
+0000.854 () Search and replacing table: wp_commentmeta: rows: 0
+0000.854 () Processing table (InnoDB): wp_comments - will restore as: 9u_comments
+0000.913 () Atomic restore: dropping original table (wp_comments)
+0000.923 () Atomic restore: renaming new table (9u_comments) to final table name (wp_comments)
+0000.941 () Search and replacing table: wp_comments: rows: 1
+0000.942 () Processing table (InnoDB): wp_links - will restore as: 9u_links
+0000.987 () Atomic restore: dropping original table (wp_links)
+0000.999 () Atomic restore: renaming new table (9u_links) to final table name (wp_links)
+0001.018 () Search and replacing table: wp_links: rows: 0
+0001.018 () Processing table (InnoDB): wp_postmeta - will restore as: 9u_postmeta
+0001.083 () Atomic restore: dropping original table (wp_postmeta)
+0001.093 () Atomic restore: renaming new table (9u_postmeta) to final table name (wp_postmeta)
+0001.108 () Search and replacing table: wp_postmeta: rows: 4
+0001.109 () Processing table (InnoDB): wp_posts - will restore as: 9u_posts
+0001.199 () Atomic restore: dropping original table (wp_posts)
+0001.213 () Atomic restore: renaming new table (9u_posts) to final table name (wp_posts)
+0001.230 () Skipping search/replace on GUID column in posts table
+0001.233 () Search and replacing table: wp_posts: rows: 123
+0001.240 () Processing table (InnoDB): wp_term_relationships - will restore as: 9u_term_relationships
+0001.290 () Atomic restore: dropping original table (wp_term_relationships)
+0001.300 () Atomic restore: renaming new table (9u_term_relationships) to final table name (wp_term_relationships)
+0001.311 () Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0001.311 () Processing table (InnoDB): wp_term_taxonomy - will restore as: 9u_term_taxonomy
+0001.363 () Atomic restore: dropping original table (wp_term_taxonomy)
+0001.374 () Atomic restore: renaming new table (9u_term_taxonomy) to final table name (wp_term_taxonomy)
+0001.389 () Search and replacing table: wp_term_taxonomy: rows: 11
+0001.390 () Processing table (InnoDB): wp_termmeta - will restore as: 9u_termmeta
+0001.439 () Atomic restore: dropping original table (wp_termmeta)
+0001.451 () Atomic restore: renaming new table (9u_termmeta) to final table name (wp_termmeta)
+0001.466 () Search and replacing table: wp_termmeta: rows: 4
+0001.466 () Processing table (InnoDB): wp_terms - will restore as: 9u_terms
+0001.511 () Atomic restore: dropping original table (wp_terms)
+0001.520 () Atomic restore: renaming new table (9u_terms) to final table name (wp_terms)
+0001.539 () Search and replacing table: wp_terms: rows: 11
+0001.540 () Processing table (InnoDB): wp_db7_forms - will restore as: 9u_db7_forms
+0001.564 () Atomic restore: dropping original table (wp_db7_forms)
+0001.565 () Atomic restore: renaming new table (9u_db7_forms) to final table name (wp_db7_forms)
+0001.580 () Search and replacing table: wp_db7_forms: rows: 1
+0001.581 () Processing table (InnoDB): wp_nfd_data_event_queue - will restore as: 9u_nfd_data_event_queue
+0001.602 () Atomic restore: dropping original table (wp_nfd_data_event_queue)
+0001.604 () Atomic restore: renaming new table (9u_nfd_data_event_queue) to final table name (wp_nfd_data_event_queue)
+0001.616 () Search and replacing table: wp_nfd_data_event_queue: rows: 0
+0001.617 () Processing table (InnoDB): wp_podsrel - will restore as: 9u_podsrel
+0001.662 () Atomic restore: dropping original table (wp_podsrel)
+0001.665 () Atomic restore: renaming new table (9u_podsrel) to final table name (wp_podsrel)
+0001.680 () Search and replacing table: wp_podsrel: rows: 0
+0001.680 () Processing table (InnoDB): wp_yoast_indexable - will restore as: 9u_yoast_indexable
+0001.740 () Database queries processed: 50 in 1.68 seconds
+0001.747 () Atomic restore: dropping original table (wp_yoast_indexable)
+0001.750 () Atomic restore: renaming new table (9u_yoast_indexable) to final table name (wp_yoast_indexable)
+0001.785 () Search and replacing table: wp_yoast_indexable: rows: 2
+0001.786 () Processing table (InnoDB): wp_yoast_indexable_hierarchy - will restore as: 9u_yoast_indexable_hierarchy
+0001.839 () Atomic restore: dropping original table (wp_yoast_indexable_hierarchy)
+0001.841 () Atomic restore: renaming new table (9u_yoast_indexable_hierarchy) to final table name (wp_yoast_indexable_hierarchy)
+0001.855 () Search and replacing table: wp_yoast_indexable_hierarchy: rows: 1
+0001.856 () Processing table (InnoDB): wp_yoast_migrations - will restore as: 9u_yoast_migrations
+0001.906 () Atomic restore: dropping original table (wp_yoast_migrations)
+0001.907 () Atomic restore: renaming new table (9u_yoast_migrations) to final table name (wp_yoast_migrations)
+0001.923 () Search and replacing table: wp_yoast_migrations: rows: 24
+0001.924 () Processing table (InnoDB): wp_yoast_primary_term - will restore as: 9u_yoast_primary_term
+0001.969 () Atomic restore: dropping original table (wp_yoast_primary_term)
+0001.970 () Atomic restore: renaming new table (9u_yoast_primary_term) to final table name (wp_yoast_primary_term)
+0001.986 () Search and replacing table: wp_yoast_primary_term: rows: 0
+0001.986 () Processing table (InnoDB): wp_yoast_seo_links - will restore as: 9u_yoast_seo_links
+0002.025 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0002.026 () Unlocking database and leaving maintenance mode
+0002.027 () Disabling Maintenance mode&#8230;
+0002.027 () Atomic restore: dropping original table (wp_yoast_seo_links)
+0002.030 () Atomic restore: renaming new table (9u_yoast_seo_links) to final table name (wp_yoast_seo_links)
+0002.045 () Search and replacing table: wp_yoast_seo_links: rows: 0
+0002.045 () Finished: lines processed: 65 in 1.99 seconds
+0002.047 () Cleaning up rubbish...
+0002.048 () Begin search and replace (updraftplus_restored_db)
+0002.048 () [Database-replace-site-url] Database: search and replace site URL
+0002.048 () Database search and replace: replace https://academia-venum.local in backup dump with http://academia-venum.local
+0002.048 () Database search and replace: replace http://www.academia-venum.local in backup dump with http://academia-venum.local
+0002.049 () Database search and replace: replace http://academia-venum.local in backup dump with http://academia-venum.local
+0002.049 () Database search and replace: replace https://www.academia-venum.local in backup dump with http://academia-venum.local
+0002.051 () Search and replacing table: wp_commentmeta: already done
+0002.051 () Search and replacing table: wp_comments: already done
+0002.051 () Search and replacing table: wp_db7_forms: already done
+0002.051 () Search and replacing table: wp_links: already done
+0002.052 () Search and replacing table: wp_nfd_data_event_queue: already done
+0002.052 () Search and replacing table: wp_options: already done
+0002.052 () Search and replacing table: wp_podsrel: already done
+0002.052 () Search and replacing table: wp_postmeta: already done
+0002.052 () Search and replacing table: wp_posts: already done
+0002.052 () Search and replacing table: wp_term_relationships: already done
+0002.053 () Search and replacing table: wp_term_taxonomy: already done
+0002.053 () Search and replacing table: wp_termmeta: already done
+0002.053 () Search and replacing table: wp_terms: already done
+0002.053 () Search and replacing table: wp_usermeta: already done
+0002.054 () Search and replacing table: wp_users: already done
+0002.054 () Search and replacing table: wp_yoast_indexable: already done
+0002.054 () Search and replacing table: wp_yoast_indexable_hierarchy: already done
+0002.055 () Search and replacing table: wp_yoast_migrations: already done
+0002.055 () Search and replacing table: wp_yoast_primary_term: already done
+0002.055 () Search and replacing table: wp_yoast_seo_links: already done
+0002.066 () Entity: plugins
+0002.066 () restore_backup(backup_file=backup_2026-01-31-1959_Academia_Venum_4a1edc5c5541-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:71:"C:\Users\maver\Local Sites\academia-venum\app\public/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0002.068 () Unpacking backup... (backup_2026-01-31-1959_Academia_Venum_4a1edc5c5541-plugins.zip, 21.2 MB)
+0002.071 () Unzipping backup_2026-01-31-1959_Academia_Venum_4a1edc5c5541-plugins.zip to C:/Users/maver/Local Sites/academia-venum/app/public/wp-content/upgrade/c223a598/ using UpdraftPlus_ZipArchive, starting index 0
+0002.992 () Unzip progress: 2314 out of 6869 files (27.2 KB, plugins/advanced-custom-fields/acf.php)
+0004.464 () Unzip progress: 3315 out of 6869 files (23.6 MB, plugins/really-simple-ssl/assets/css/admin/modules/wizard/fields.scss)
+0010.506 () Unzip progress: 4316 out of 6869 files (48.7 MB, plugins/updraftplus/templates/wp-admin/settings/existing-backups-table.php)
+0017.250 () Unzip progress: 5317 out of 6869 files (55.8 MB, plugins/w3-total-cache/Extension_Genesis_Page_View.php)
+0024.382 () Unzip progress: 6318 out of 6869 files (63.7 MB, plugins/w3-total-cache/vendor/aws/aws-sdk-php/src/data/amp/2020-08-01/paginators-1.json.php)
+0036.014 () Unzip progress: 6869 out of 6869 files (76.3 MB, plugins/w3-total-cache/vendor/aws/aws-sdk-php/src/data/elasticache/2015-02-02/api-2.json.php)
+0036.017 () Moving old data: filesystem method / updraft_dir is potentially possible
+0036.017 () Moving old data: can potentially use wp_filesystem method / -old
+0036.017 () Moving old data out of the way...
+0036.215 () Top-level entities being moved: index.php, updraftplus
+0036.219 () Moving unpacked backup into place...
+0037.546 () Top-level entities being moved: advanced-custom-fields, all-in-one-wp-migration, better-search-replace, contact-form-7, contact-form-cfdb7, index.php, really-simple-ssl, updraftplus, w3-total-cache
+0037.573 () Cleaning up rubbish...
+0037.575 () [W3 Total Cache] Disabled this plugin: %s: re-activate it manually when you are ready.
+0037.578 () restore_backup(backup_file=backup_2026-01-31-1959_Academia_Venum_4a1edc5c5541-plugins2.zip, type=plugins, info=a:3:{s:4:"path";s:71:"C:\Users\maver\Local Sites\academia-venum\app\public/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0037.580 () Unpacking backup... (backup_2026-01-31-1959_Academia_Venum_4a1edc5c5541-plugins2.zip, 3.9 MB)
+0037.581 () Unzipping backup_2026-01-31-1959_Academia_Venum_4a1edc5c5541-plugins2.zip to C:/Users/maver/Local Sites/academia-venum/app/public/wp-content/upgrade/5b6e0341/ using UpdraftPlus_ZipArchive, starting index 0
+0046.040 () Unzip progress: 1002 out of 2377 files (21 MB, plugins/w3-total-cache/vendor/aws/aws-sdk-php/src/DeviceFarm/DeviceFarmClient.php)
+0056.393 () Unzip progress: 2003 out of 2377 files (25.7 MB, plugins/w3-total-cache/vendor/microsoft/azure-storage-common/src/Common/Models/RetentionPolicy.php)
+0059.912 () Unzip progress: 2377 out of 2377 files (26.9 MB, plugins/w3-total-cache/wp-content/w3tc-config/master.php)
+0059.913 () Moving unpacked backup into place...
+0060.687 () Top-level entities being moved: w3-total-cache
+0066.825 () Cleaning up rubbish...
+0066.826 () [W3 Total Cache] Disabled this plugin: %s: re-activate it manually when you are ready.
+0066.833 () Entity: themes
+0066.833 () restore_backup(backup_file=backup_2026-01-31-1959_Academia_Venum_4a1edc5c5541-themes.zip, type=themes, info=a:3:{s:4:"path";s:70:"C:\Users\maver\Local Sites\academia-venum\app\public/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0066.834 () Unpacking backup... (backup_2026-01-31-1959_Academia_Venum_4a1edc5c5541-themes.zip, 19.9 MB)
+0066.836 () Unzipping backup_2026-01-31-1959_Academia_Venum_4a1edc5c5541-themes.zip to C:/Users/maver/Local Sites/academia-venum/app/public/wp-content/upgrade/60c0f3b1/ using UpdraftPlus_ZipArchive, starting index 0
+0067.932 () Unzip progress: 1383 out of 10951 files (120 B, themes/a-voz-do-povo/.eslintrc)
+0070.936 () Unzip progress: 2384 out of 10951 files (4.3 MB, themes/a-voz-do-povo/node_modules/ajv/dist/vocabularies/jtd/metadata.d.ts)
+0074.409 () Unzip progress: 3385 out of 10951 files (15.4 MB, themes/a-voz-do-povo/node_modules/caniuse-lite/data/features/html5semantic.js)
+0078.996 () Unzip progress: 4386 out of 10951 files (18.6 MB, themes/a-voz-do-povo/node_modules/css-tree/lib/utils/List.js)
+0083.438 () Unzip progress: 5387 out of 10951 files (19.8 MB, themes/a-voz-do-povo/node_modules/es-abstract/2020/IsUnclampedIntegerElementType.js)
+0086.096 () Unzip progress: 6388 out of 10951 files (20.6 MB, themes/a-voz-do-povo/node_modules/es-abstract/2024/IsIntegralNumber.js)
+0087.884 () Unzip progress: 7389 out of 10951 files (23.5 MB, themes/a-voz-do-povo/node_modules/is-core-module/.eslintrc)
+0091.630 () Unzip progress: 8390 out of 10951 files (27.6 MB, themes/a-voz-do-povo/node_modules/pstree.remy/lib/utils.js)
+0095.854 () Unzip progress: 9391 out of 10951 files (35.5 MB, themes/a-voz-do-povo/node_modules/stylelint/lib/rules/selector-pseudo-class-no-unknown/index.mjs)
+0100.389 () Unzip progress: 10392 out of 10951 files (38 MB, themes/a-voz-do-povo/node_modules/yaml/browser/dist/doc/anchors.js)
+0103.101 () Unzip progress: 10951 out of 10951 files (47.4 MB, themes/twentytwentyfive/theme.json)
+0103.105 () Moving old data: filesystem method / updraft_dir is potentially possible
+0103.106 () Moving old data: can potentially use wp_filesystem method / -old
+0103.109 () Moving old data out of the way...
+0103.155 () Top-level entities being moved: index.php, twentytwentyfive, twentytwentyfour, twentytwentythree
+0103.162 () Moving unpacked backup into place...
+0104.484 () Top-level entities being moved: a-voz-do-povo, index.php, twentytwentyfive
+0104.504 () Cleaning up rubbish...
+0104.515 () Entity: uploads
+0104.515 () restore_backup(backup_file=backup_2026-01-31-1959_Academia_Venum_4a1edc5c5541-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:71:"C:\Users\maver\Local Sites\academia-venum\app\public/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0104.516 () Unpacking backup... (backup_2026-01-31-1959_Academia_Venum_4a1edc5c5541-uploads.zip, 8.6 MB)
+0104.517 () Unzipping backup_2026-01-31-1959_Academia_Venum_4a1edc5c5541-uploads.zip to C:/Users/maver/Local Sites/academia-venum/app/public/wp-content/upgrade/8ec6a992/ using UpdraftPlus_ZipArchive, starting index 0
+0104.644 () Unzip progress: 102 out of 102 files (8.6 MB, uploads/wpcf7_uploads/.htaccess)
+0104.645 () Moving old data: filesystem method / updraft_dir is potentially possible
+0104.646 () Moving old data: can potentially use wp_filesystem method / -old
+0104.646 () Moving old data out of the way...
+0104.653 () Moving unpacked backup into place...
+0104.672 () Cleaning up rubbish...
+0104.677 () Entity: others
+0104.677 () restore_backup(backup_file=backup_2026-01-31-1959_Academia_Venum_4a1edc5c5541-others.zip, type=others, info=a:2:{s:4:"path";s:63:"C:\Users\maver\Local Sites\academia-venum\app\public/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0104.678 () Unpacking backup... (backup_2026-01-31-1959_Academia_Venum_4a1edc5c5541-others.zip, 0 MB)
+0104.680 () Unzipping backup_2026-01-31-1959_Academia_Venum_4a1edc5c5541-others.zip to C:/Users/maver/Local Sites/academia-venum/app/public/wp-content/upgrade/831d0651/ using UpdraftPlus_ZipArchive, starting index 0
+0104.700 () Unzip progress: 21 out of 21 files (34 KB, w3tc-config/master.php)
+0104.701 () advanced-cache.php: Skipping cache file (does not already exist)
+0104.722 () Cleaning up rubbish...
+0104.722 () PHP event: code E_WARNING: rmdir(C:/Users/maver/Local Sites/academia-venum/app/public/wp-content/upgrade/831d0651): Directory not empty (line 386, C:\Users\maver\Local Sites\academia-venum\app\public\wp-admin\includes\class-wp-filesystem-direct.php)
+0104.722 () Error: Failed to delete working directory after restoring. (C:/Users/maver/Local Sites/academia-venum/app/public/wp-content/upgrade/831d0651)
+0105.261 () Purging cache directory: C:\Users\maver\Local Sites\academia-venum\app\public/wp-content/cache
+0105.266 () Restore successful!
+0105.266 () Restore successful
